@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import {FaBars,FaTimes} from "react-icons/fa";
-import "../index.css"
+import "../Nav/nav.css"
 
 
 export function Navbar() {
@@ -9,8 +9,6 @@ export function Navbar() {
     const mostrarNavbar = () =>{
         navRef.current.classList.toggle('responsive_nav');
     }
-
-
     return (
         <header>
            <h3>Logo</h3>
