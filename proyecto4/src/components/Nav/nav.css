@@ -9,7 +9,7 @@ header{
   
   }
   
-  nav a{
+  nav Link{
     margin: 0 2rem;
     color: var(--textColor) ;
     text-decoration: none;
@@ -62,7 +62,7 @@ header{
         top: 2rem;
         right: 2rem;
        }
-       nav a{
+       nav Link{
         font-size: 1.5rem;
        }
   
