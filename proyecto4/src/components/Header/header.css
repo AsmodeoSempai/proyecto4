@@ -1,24 +1,24 @@
-section{
+.section{
     background-color: black;
     width: 100%;
-    height: 33rem;
+    height: 43rem;
     display: flex;
     align-items: center;
     
 }
-h1{
+.tituloh1{
 
     color: var(--textColorSecond);
     text-transform: uppercase;
 }
 
-h2{
+.tituloh2{
 
     color: var(--textColorSecond);
 }
 
 
-img{
+.tituloimg{
     
     width: 80%;
     height: 20rem;
