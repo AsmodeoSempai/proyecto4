@@ -5,6 +5,8 @@ import {Contacto} from './components/Contacto/contacto';
 import {Menu} from './components/Menu/menu.jsx';
 import { QuienesSomos } from './components/Quienes Somos/quienessomos.jsx';
 import { Header } from './components/Header/header.jsx';
+import './components/servicios/firebase'
+
 
 function App() {
   return (
