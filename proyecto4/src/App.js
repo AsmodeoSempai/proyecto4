@@ -6,6 +6,7 @@ import {Menu} from './components/Menu/menu.jsx';
 import { QuienesSomos } from './components/Quienes Somos/quienessomos.jsx';
 import { Header } from './components/Header/header.jsx';
 import './components/servicios/firebase'
+import { TablaReservas } from './components/servicios/tablareserva.js';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path='/menu' element={<Menu/>}/> 
           <Route path='/contacto' element={<Contacto/>}/> 
           <Route path='/quienessomos' element={<QuienesSomos/>}/> 
+          <Route path='/tablareserva' element={<TablaReservas/>}/>
         </Routes>
         <Footer/>
       </Router>    
